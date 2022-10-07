@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            "D:/Lucas Cunibertti/Documents/Agus/Programacion/Django/ProyectoCoder2/ProyectoCoder/AppCoder/Templates"
+            f"{BASE_DIR}/ProyectoCoder2/ProyectoCoder/AppCoder/Templates"
         ],
         'APP_DIRS': True,
         'OPTIONS': {
