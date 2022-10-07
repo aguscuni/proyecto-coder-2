@@ -3,5 +3,6 @@ from django.http import HttpResponse
 
 # Create your views here.
 
+
 def mostrar_inicio(request):
-    return HttpResponse("Hola Mundo!")
+    return render(request, "AppCoder/inicio.html")
