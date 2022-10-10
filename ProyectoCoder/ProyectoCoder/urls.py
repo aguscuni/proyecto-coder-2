@@ -20,5 +20,5 @@ from AppCoder.views import inicio
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('AppCoder/', include("AppCoder.urls"))
+    path('AppCoder/', include("AppCoder.urls")),
 ]
