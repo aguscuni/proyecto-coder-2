@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from AppCoder.views import mostrar_inicio
+from AppCoder import views
 
 urlpatterns = [
-    path("inicio/", mostrar_inicio)
+    path("", views.inicio, name="Inicio"),
+    path("cursos", views.cursos, name="Cursos"),
+    path("profesores", views.profesores, name="Profesores"),
+    path("estudiantes", views.estudiantes, name="Estudiantes"),
+    path("entregables", views.entregables, name="Entregables"),
 ]
