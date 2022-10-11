@@ -23,5 +23,10 @@ urlpatterns = [
     path("profesores", views.profesores, name="Profesores"),
     path("estudiantes", views.estudiantes, name="Estudiantes"),
     path("entregables", views.entregables, name="Entregables"),
-    path("ayuda/", views.ayuda, name="Ayuda"),
+    path("formulario", views.procesar_formulario, name="formulario"),
+    path("formulario-2", views.procesar_formulario_2, name="formulario_2"),
+    path("busqueda", views.busqueda, name="busqueda"),
+    path("busqueda-2", views.busqueda_2, name="busqueda_2"),
+    path("buscar", views.buscar, name="buscar"),
+    path("buscar-2", views.buscar_2, name="buscar_2"),
 ]
